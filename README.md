@@ -10,9 +10,11 @@ The code in R files 1 and 2 was run seven times, once on the data from each capt
 
 ###
 The folders containing the different csv files fall into three categories:
-1. Examples of the files the code will output - 'Output' folder
-2. The csv files containing input data for the code to use -
-3. The target files for the code output to go to. These are the files in the correct format the code will transform the data into - 
+1. Examples of the files the code will output - 'Outputs' folder
+2. The csv files containing input data for the code to use - 'Duplicates Removed Data' & 'Original Data' folders 
+3. The target files for the code output to go to. These are the files in the correct format the code will transform the data into - 'Target format' folder
+
+
 
 ### R Version
 RStudio 2023.03.1+446 "Cherry Blossom" Release (6e31ffc3ef2a1f81d377eeccab71ddc11cfbd29e, 2023-05-09) for windows
