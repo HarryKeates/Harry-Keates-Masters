@@ -11,7 +11,7 @@ library(tidyr)
 
 ## Here is the input dataset
 
-original_data <- read.csv("C:/Users/harry/Documents/MastersDataAnalysis/Current/SiteOneDuplicatedRemoved.csv")
+original_data <- read.csv("C:/Users/harry/Documents/MastersDataAnalysis/Current/OuputDuplicatesRemoved.csv")
 
 ## This first grouping grouped year, site and season
 ## The summarise then calculates the mean for grouped values such that if in 1978 at site 1 there was two capture events in Autumn the mean would be calculated for each species' captures
@@ -33,7 +33,7 @@ condensed_data <- grouped_data %>%
 
 ## This is saved to a new dataframe using write.csv
 
-write.csv(condensed_data, "SiteOneCondensedMean.csv", row.names = FALSE)
+write.csv(condensed_data, "OuputCondensedMean.csv", row.names = FALSE)
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
@@ -42,7 +42,7 @@ write.csv(condensed_data, "SiteOneCondensedMean.csv", row.names = FALSE)
 ## The same grouping functions were used for step one but with ~sum instead of ~mean
 
 
-original_data <- read.csv("C:/Users/harry/Documents/MastersDataAnalysis/Current/SiteOneDuplicatedRemoved.csv")
+original_data <- read.csv("C:/Users/harry/Documents/MastersDataAnalysis/Current/OuputDuplicatesRemoved.csv")
 
 grouped_data <- original_data %>%
   group_by(Year, Site, Season) %>%
@@ -55,4 +55,4 @@ condensed_data <- grouped_data %>%
   ungroup()
 
 
-write.csv(condensed_data, "SiteOneCondensedSum.csv", row.names = FALSE)
+write.csv(condensed_data, "OuputCondensedSum.csv", row.names = FALSE)
