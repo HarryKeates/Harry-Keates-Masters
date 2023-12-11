@@ -1,6 +1,5 @@
 # Harry-Keates-Masters
-Repository containing the main csv and R files used to generate the data frames used in analysis
-All data in the 'Original Data' was provided by the Treswell Wood Integrated Population Monitoring Group
+Repository containing the main csv and R files used to generate the data frames used in analysis. All data in the 'Original Data' was provided by the Treswell Wood Integrated Population Monitoring Group
 
 ## R Files
 ### The 3 R files contain the code used the complete the following stages outlined in my thesis
