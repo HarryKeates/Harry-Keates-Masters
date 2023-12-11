@@ -1,6 +1,8 @@
 # Harry-Keates-Masters
 Repository containing the main csv and R files used to generate the data frames used in analysis
+All data in the 'Original Data' was provided by the Treswell Wood Integrated Population Monitoring Group
 
+## R Files
 ### The 3 R files contain the code used the complete the following stages outlined in my thesis
 1. Reformatting the original data to have a single entry per capture event. (1_ReformattingCodeWithComments.R)
 2. Improving on that process by removing duplicate entries through filtering out repeated ring numbers per year before reformatting takes place. This was done to remove bias in the data where certain birds were very active. (2_RemovingDuplicatesCodeWithComments.R)
@@ -8,11 +10,12 @@ Repository containing the main csv and R files used to generate the data frames 
 
 The code in R files 1 and 2 was run seven times, once on the data from each capture site. This is explained in the comments in the code.
 
-###
-The folders containing the different csv files fall into three categories:
-1. Examples of the files the code will output - 'Outputs' folder
-2. The csv files containing input data for the code to use - 'Duplicates Removed Data' & 'Original Data' folders 
-3. The target files for the code output to go to. These are the files in the correct format the code will transform the data into - 'Target format' folder
+## Folders
+### The four folders contain csv files from different stages in the process
+1. The 'Original Data' folder contains the original data provided by the Treswell Wood Integrated Population Monitoring Group
+2. The 'Duplicates Removed Data' folder contains the output from running '2_RemovingDuplicatesCodeWithComments.R' on the data from each site. This is also the data used as the input for '3_CondenseToYearsCodeWithComments.R'
+3. The 'Outputs' folder contains examples of the files the code will output
+4. The target files for the code output to go to. These are the files in the correct format the code will transform the data into - 'Target format' folder
 
 
 
