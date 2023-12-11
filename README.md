@@ -8,6 +8,12 @@ Repository containing the main csv and R files used to generate the data frames 
 
 The code in R files 1 and 2 was run seven times, once on the data from each capture site. This is explained in the comments in the code.
 
+###
+The folders containing the different csv files fall into three categories:
+1. Examples of the files the code will output - 'Output' folder
+2. The csv files containing input data for the code to use -
+3. The target files for the code output to go to. These are the files in the correct format the code will transform the data into - 
+
 ### R Version
 RStudio 2023.03.1+446 "Cherry Blossom" Release (6e31ffc3ef2a1f81d377eeccab71ddc11cfbd29e, 2023-05-09) for windows
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) RStudio/2023.03.1+446 Chrome/108.0.5359.179 Electron/22.0.3 Safari/537.36
