@@ -14,7 +14,7 @@ The code in R files 1 and 2 was run seven times, once on the data from each capt
 1. The 'Original Data' folder contains the original data provided by the Treswell Wood Integrated Population Monitoring Group
 2. The 'Duplicates Removed Data' folder contains the output from running '2_RemovingDuplicatesCodeWithComments.R' on the data from each site. This is also the data used as the input for '3_CondenseToYearsCodeWithComments.R'
 3. The 'Outputs' folder contains examples of the files the code will output
-4. The target files for the code output to go to. These are the files in the correct format the code will transform the data into - 'Target format' folder
+4. The 'Target Format' folder contains two sub-folders. The folder labeled 'Reformating Target' contains the target format for the '1_ReformattingCodeWithComments.R' code. The folder labeled 'Condensed To Years Target' contains the target format for the '3_CondenseToYearsCodeWithComments.R' code
 
 
 
