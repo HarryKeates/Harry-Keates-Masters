@@ -1,4 +1,4 @@
-# Harry-Keates-Masters-Code-and-Data
+# Masters-Code-and-Data
 Repository containing the main csv and R files used to generate the data frames used in analysis. All data in the 'Original Data' was provided by the Treswell Wood Integrated Population Monitoring Group
 
 ## R Files
