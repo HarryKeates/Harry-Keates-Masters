@@ -10,7 +10,7 @@
 
 Data <- read.csv("C:/Users/harry/Documents/MastersDataAnalysis/OriginalData.csv")
 DataChange <- read.csv("C:/Users/harry/Documents/MastersDataAnalysis/NewDates.csv")
-attach(MeganData)
+attach(Data)
 
 ## The code below makes a new 'Date' column which allows the for loop to search the new spreadsheet for the correct row
 DataChange$Date <- paste(DataChange$Year, DataChange$Month, DataChange$Day, sep="")
